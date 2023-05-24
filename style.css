@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Unna&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    font-size: 100%;
+    background:black;
+}
+
+.cabeçalho{
+      
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+.logocabeçalho{
+    height: 72px;  
+}
+.cabeçalho__menu{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho__menu__links{
+    font-family: 'Unna', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+.conteudoprimario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudoprimario__titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: white;
+}
+.conteudosecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    
+}
+.conteudosecundario_titulo{
+    border-top: 0.4px solid white;
+    padding-top: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: auto;
+    gap: 30px;
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.conteudosecundario__titulo__paragrafo{
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.conteudorodape{
+    padding: 6px;
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.conteudorodape_imagem{
+    height: 150px;
+    display:block;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.tituloabout{
+    border-top: 0.4px solid white;
+    padding-top: 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: auto;
+    gap: 30px;
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.tituloabout__texto{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px; ;
+    color: white;
+    padding: 1% ;
+    align-items: center;
+    justify-content: center;
+}
+.tituloabout__texto{
+    display: flex;
+    flex-direction: column;
+}
+.imgabout{
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: auto;
+   
+    
+}
+.imgabout__links{
+    
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap:19px;
+    width: 300px;
+    text-align: center;
+    border-radius:3px ;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-family: 'Unna', serif;
+            
+}
